@@ -13,8 +13,8 @@ public class Main {
         cat.eat("Fish");
         cat.eat("proteinbars");
 
-        cat.mood();
-        dog.mood();
+        cat.mood(true);
+        dog.mood(true);
 
     }
 }
