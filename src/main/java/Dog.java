@@ -10,4 +10,9 @@ public class Dog extends Animal {
         System.out.println("She likes the way that I move, she likes the way that I talk" +
                 "GHRRRR...");
     }
+
+    @Override
+    public boolean eat(String foodType) {
+        return true;
+    }
 }
