@@ -7,12 +7,10 @@ public abstract class Animal {
     }
 
     public abstract void makeSound();
+    public abstract boolean eat(String foodType);
 
     @Override
     public String toString() {
         return name;
     }
-    public abstract boolean eat(String foodType);
-
-
 }

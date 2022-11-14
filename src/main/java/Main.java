@@ -6,5 +6,12 @@ public class Main {
 
         System.out.println(cat);
         System.out.println(dog);
+
+        cat.makeSound();
+        dog.makeSound();
+
+        cat.eat("Fish");
+        cat.eat("proteinbars");
+
     }
 }
