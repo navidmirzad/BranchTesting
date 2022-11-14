@@ -8,6 +8,10 @@ public abstract class Animal {
 
     public abstract void makeSound();
 
+    @Override
+    public String toString() {
+        return name;
+    }
     public abstract boolean eat(String foodType);
 
 
