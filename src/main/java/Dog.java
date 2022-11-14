@@ -17,7 +17,11 @@ public class Dog extends Animal {
     }
 
     @Override
-    public void mood() {
-        System.out.println("Wolf is happy");
+    public void mood(boolean mood) {
+        if (mood) {
+            System.out.println("logrer med halen...");
+        } else {
+            System.out.println("ikke glad.. grrrr");
+        }
     }
 }
